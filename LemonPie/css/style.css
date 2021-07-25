@@ -1,0 +1,61 @@
+.group_1 {
+    display: flex;
+    flex-direction: column-reverse;
+    font-family: 'Times New Roman', Times, serif;
+}
+main {
+    color: #444444;
+}
+.pie {
+   display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background: url("../img/lemonPie_1.svg") center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 400px;
+    font-family: 'Inter', sans-serif;
+    color: #FFFF;
+    font-weight: 500; 
+}
+h1 {
+    font-weight:700;
+    font-size: 48px;
+    line-height: 58px;
+}
+h2 {
+    font-family: 'Inter', sans-serif;
+    
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.subtitulos {
+    display: flex;
+}
+
+body main div {
+    font-family: 'Playfair Display', serif;
+    color: #444444
+}
+
+.lists {
+    font-family: 'Inter', sans-serif;
+}
+.instructions {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    background-color: #C4C4C4;
+    Width: 100%;
+
+}
+.naranja {
+    color: orange;
+    text-decoration: underline;
+}
