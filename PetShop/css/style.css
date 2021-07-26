@@ -1,0 +1,11 @@
+.header-first-container {
+    background-color: #222222;
+    color: #F3F3F3;
+    display: flex;
+    justify-content: space-around;
+    font-size: 10px;
+    font-weight: 400;
+}
+.header-first-container-options {
+    display: flex;
+}

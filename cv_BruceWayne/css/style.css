@@ -1,0 +1,19 @@
+header {
+  background-color: #E5E5E5;
+
+}
+.batman {
+  display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.titulo {
+  background-color: #C4C4C4;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700;
+  color: #005677;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  text-align: center;
+}
+
