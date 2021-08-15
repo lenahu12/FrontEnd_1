@@ -141,9 +141,12 @@ nav ul li a:hover::before{
          transform: rotate(1turn);
      }
  }
-
-body section:hover::before {
-    content: "es alta gila, hincha de river encima";
+body section div{
+    display: flex;
+    width: 500px;
+}
+body section div:hover::before {
+    content: "es alta gila, hincha de river encima U.U";
     font-size: 30px;
     color: red;
 }
