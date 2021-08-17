@@ -5,17 +5,22 @@
 }
 
 header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: #E5E5E5;
+  margin-bottom: 100px;
 }
+header a {
+  margin-top:5px;
+  margin-bottom:5px;
+}
+
 main {
 margin: auto;
 width: 55%;
 }
-.batman {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 h1 {
   background-color: #C4C4C4;
   background-size:contain;
@@ -25,8 +30,10 @@ h1 {
   text-transform: uppercase;
   letter-spacing: 7px;
   text-align: center;
-  padding: 15px;
+  padding: 10px;
   font-size: 35px;
+  width:100%;
+  
 }
 
 h2 {
@@ -38,7 +45,7 @@ h2 {
   color: #005677;
   text-transform: uppercase;
   letter-spacing: 5px;
-  padding: 6px;
+  padding: 3px;
 }
 li {
   font-size: 15px;
@@ -50,14 +57,16 @@ em {
 span {
   font-weight:700;
 }
+
 dt {
-  margin-left: 3em;
+  margin-left: 1.5em;
   font-size: 15px;
 }
 dd {
-  margin-left: 8em;
+  margin-left: 6.5em;
   font-size: 15px;
 }
+
 footer {
   display: flex;
   justify-content: center;
@@ -67,8 +76,23 @@ footer {
   font-size: 20px;
   color: #FFFF;
   background-color: #005677;
+  padding: 7px;
 
 }
 .image-margin {
   margin-left: 20px;
 }
+ul {
+  margin-top:18px;
+  margin-bottom: 30px;
+  margin-left: 25px;
+}
+.formacion {
+  margin-top: 19px;
+  margin-bottom: 30px;
+}
+.experiencia {
+  margin-top: 19px;
+  margin-bottom: 75px;
+}
+
