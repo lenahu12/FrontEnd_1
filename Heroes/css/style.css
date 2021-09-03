@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+  }
+
+header div {
+    background-color: #1CD1B0;
+    font-size: 0.93rem;
+    padding: 0.62rem;
+}
+h1 {
+    background: #00669F;
+    height: 6.31rem;
+    padding: 1.75rem;
+    font-size: 40px;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+.cards {
+    
+    display: flex;
+    justify-content: space-around;
+}
+.firstCard {
+    background: #F3F3F3 url(../img/fondo_batman.png) no-repeat;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    width: 18.75rem;
+    height: 40rem;
+    margin: 0.93rem;
+}
+.secondCard {
+    background: #F3F3F3 url(../img/fondo_quinn.png) no-repeat;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    width: 18.75rem;
+    height: 40rem;
+    margin: 0.93rem;
+}
+.thirdCard {
+    background: #F3F3F3 url(../img/fondo_batman.png) no-repeat;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    width: 18.75rem;
+    height: 40rem;
+    margin: 0.93rem;
+}
+.avatar {
+    margin-top: 100px;
+    width: 7.5rem;
+    border-radius: 50%;
+}
+.end {
+    display:flex;
+    align-items:center;
+    color: #FFF9F9;
+    height: 51px;
+    background: #00669F;
+}
+
+.card-img {
+    color: #CC2424;
+    font-size: 1.5em;
+}
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
