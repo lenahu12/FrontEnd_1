@@ -7,6 +7,15 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
   }
+a {
+    color: inherit;
+    text-decoration: none;
+}
+body {
+    display:flex;
+    flex-direction: column;
+    height: 100vh;
+}
 
 header div {
     background-color: #1CD1B0;
@@ -19,43 +28,98 @@ h1 {
     padding: 1.75rem;
     font-size: 40px;
     box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    margin-bottom: 5rem;
 }
 .cards {
-    
     display: flex;
-    justify-content: space-around;
+    justify-content:center;
+    align-items:center;
+    flex-wrap: wrap;
+    flex-grow: 1;
 }
 .firstCard {
-    background: #F3F3F3 url(../img/fondo_batman.png) no-repeat;
+    background-color: #F3F3F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     display: flex;
     flex-direction: column;
     width: 18.75rem;
-    height: 40rem;
-    margin-top: 5rem;
+    height: 35rem;
+    margin:0.93rem;
+
 }
 .secondCard {
-    background: #F3F3F3 url(../img/fondo_quinn.png) no-repeat;
+    background-color: #F3F3F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     display: flex;
     flex-direction: column;
     width: 18.75rem;
-    height: 40rem;
-    margin-top: 5rem;
+    height: 35rem;
+    margin:0.93rem;
+
 }
 .thirdCard {
-    background: #F3F3F3 url(../img/fondo_batman.png) no-repeat;
+    background-color: #F3F3F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     display: flex;
     flex-direction: column;
     width: 18.75rem;
-    height: 40rem;
-    margin-top: 5rem;
+    height: 35rem;
+    margin:0.93rem;
+}
+.fourthCard {
+    background-color: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    width: 18.75rem;
+    height: 35rem;
+    margin:0.93rem;
+}
+.firstCard .card-img {
+    background: #F3F3F3 url(../img/fondo_batman.png) no-repeat;
+}
+.secondCard .card-img {
+    background: #F3F3F3 url(../img/fondo_quinn.png) no-repeat;
+}
+.thirdCard .card-img {
+    background: #F3F3F3 url(../img/fondo_maravilla.png) no-repeat;
+}
+.fourthCard .card-img {
+    background: #F3F3F3 url(../img/fondo_superman.png) no-repeat;
 }
 .avatar {
-    margin-top: 71px;
-    width: 7.5rem;
+    margin-top: -64px;
     border-radius: 50%;
+    width: 7.5rem;
+
+}
+.card-img {
+    color: #CC2424;
+    font-size: 1.5em;
+    height: 10.1rem;
+    padding: 0.93rem 1.31rem;
+    border-radius: 10px 10px 0 0;
+}
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-between;
+    height: 25rem;
+    position:relative;
+}
+
+.paragraph {
+    padding: 1rem;
+    text-align:justify;
+}
+.card-button {
+    background-color: #00669F;
+    padding: 0.93rem 2.31rem;
+    color: white;
+    font-size: 0.93rem;
+    margin-bottom: 1.17rem;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.50);
 }
 .end {
     display:flex;
@@ -63,16 +127,17 @@ h1 {
     color: #FFF9F9;
     height: 51px;
     background: #00669F;
+    margin-top: 4.85rem;
+    box-shadow: 0px -10px 7px rgba(0, 0, 0, 0.25);
 }
 
-.card-img {
-    color: #CC2424;
-    font-size: 1.5em;
-    padding: 0.93rem 1.31rem;
+@media screen and (max-width: 480px) {
+
+    .cards{
+        flex-direction: column;
+    }
+    .firstCard .secondCard .thirdCard .fourthCard{
+        margin: 0.93rem auto;
+    }
 }
-.card-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-}
+
